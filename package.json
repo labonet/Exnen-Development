@@ -1,0 +1,29 @@
+{
+  "name": "exnen-development-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "config": {
+    "target": "node16-win-x64"
+  },
+  "bin": {
+    "exnen": "./main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clamav.js": "^0.12.0",
+    "fs": "^0.0.1-security",
+    "minimist": "^1.2.7",
+    "process": "^0.11.10",
+    "readline-sync": "^1.4.10",
+    "request": "^2.88.2"
+  },
+  "build": {
+    "icon": "./icon/ExnenLogo.png"
+  }
+}
