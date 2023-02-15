@@ -2,9 +2,13 @@
 
 ## Supported Versions
 
-| Version | Supported          | Exstensions/Files security |
+| Version | Supported          | Exstensions                |
 | ------- | ------------------ |----------------------------|
 | 1.0.0   | :white_check_mark: | ❎                         |
+| ----------------------------------------------------------
+| 1.1.0   | ✅                 | ✅                        |
+|------------------------------------------------------------
+| 2.0.0   | ✅                 | 😐 (Removed)              |
 
 
 ## Reporting a Vulnerability
