@@ -1,0 +1,24 @@
+#codespace (
+    var title: color.cyan + `███████╗██╗  ██╗███╗   ██╗███████╗███╗   ██╗     ██████╗██╗     ██╗
+██╔════╝╚██╗██╔╝████╗  ██║██╔════╝████╗  ██║    ██╔════╝██║     ██║` + color.blue + `
+█████╗   ╚███╔╝ ██╔██╗ ██║█████╗  ██╔██╗ ██║    ██║     ██║     ██║
+██╔══╝   ██╔██╗ ██║╚██╗██║██╔══╝  ██║╚██╗██║    ██║     ██║     ██║
+███████╗██╔╝ ██╗██║ ╚████║███████╗██║ ╚████║    ╚██████╗███████╗██║
+╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═══╝     ╚═════╝╚══════╝╚═╝`;
+    write[title + color.Reset];
+    var options: $<"<1> Calculate", "<2> Random", "<3> Get Brackets">$
+    options.forEach[x :> (
+        write[x];
+    )]
+    var qst: input["Select an option: "];
+    if[qst :: 1] (
+        write[calc.math[Int.Convert[input["Calculate: "]]]]
+    )
+    if[qst :: 2] (
+        write[calc.random[Int.Convert[input["Random: "]]]]
+    )
+    if[qst :: 3] (
+        write[GET_BRACKET[input["Brackets: "]]]
+    );
+
+)
