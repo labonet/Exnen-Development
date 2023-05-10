@@ -1,0 +1,8 @@
+#codespace (
+  var dec: input["Do you want to shutdown your computer?"]
+  if[dec :: "y"] (
+    $.run["shutdown -s"]
+  ) else (
+    exit[];
+  )
+)
