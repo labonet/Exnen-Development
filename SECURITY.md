@@ -2,12 +2,12 @@
 
 ## Supported Versions
 
-| Version | Supported          | Exstensions                |
-| ------- | ------------------ |----------------------------|
-| 1.0.0   | ❎                 | ❎                        |
-| 1.1.0   | ✅                 | ✅                        |
-| 2.0.0   | ✅                 | 😐 (Removed)              |
-
+| Version | Supported          | Cli Exstensions            | Code Plugins           |
+| ------- | ------------------ |----------------------------|------------------------|
+| 1.0.0   | ❎                 | ❎                        | ✅                     |
+| 1.1.0   | ❎                 | ✅                        | ✅                     |
+| 2.0.0   | ✅                 | 😐 (Removed)              | ✅                     |
+| 2.2.0   | ✅                 | 😐 (Removed)              | ✅                     |
 
 ## Reporting a Vulnerability
 
